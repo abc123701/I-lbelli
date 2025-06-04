@@ -1,113 +1,104 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Işıl Belli | Cimnastik</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f6f6f6;
-    }
-    header {
-      background: #c0392b;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #e74c3c;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 20px;
-      background: white;
-      margin: 20px;
-      border-radius: 8px;
-    }
-    footer {
-      background: #c0392b;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 40px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IŞILBELLİ | Cimnastik Web Sitesi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header, footer { background: #0277bd; color: white; text-align: center; padding: 1em; }
+        nav ul { display: flex; justify-content: center; list-style: none; padding: 0; background: #039be5; margin: 0; }
+        nav ul li { margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 2em; max-width: 1000px; margin: auto; }
+        h2 { color: #0277bd; }
+        .card { background: white; padding: 1em; margin: 1em 0; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .card img { max-width: 100%; border-radius: 8px; margin-top: 1em; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>www.ışıl.com</h1>
-    <p>Cimnastik Hakkında Bilgilendirici Bir Sayfa</p>
-  </header>
 
-  <nav>
-    <a href="#anasayfa">Anasayfa</a>
-    <a href="#blog">Blog</a>
-    <a href="#iletisim">İletişim</a>
-    <a href="#hakkimizda">Hakkımızda</a>
-    <a href="#referanslar">Referanslarımız</a>
-  </nav>
+<header>
+    <h1>IŞIL BELLİ - Cimnastik Web Sitesi</h1>
+    <p>Çukurova Üniversitesi | Antrenörlük 3. Sınıf</p>
+</header>
 
-  <section id="anasayfa">
-    <h2>Cimnastik Nedir?</h2>
-    <p>Cimnastik, vücut kontrolü, denge, esneklik ve güç kullanılarak yapılan estetik ve teknik hareketlerin birleşiminden oluşan bir spor dalıdır. Artistik, ritmik, trambolin gibi farklı branşları vardır. Olimpik bir spor olarak hem bireysel hem de takım halinde yapılabilir.</p>
-  </section>
-
-  <section id="blog">
-    <h2>Cimnastiğin Tarihi</h2>
-    <p>Cimnastik, Antik Yunan'dan günümüze kadar uzanan köklü bir geçmişe sahiptir. Zaman içinde farklı biçimlerde gelişerek bugünkü halini almıştır.</p>
-
-    <h2>Cimnastiğin Faydaları</h2>
+<nav>
     <ul>
-      <li>Esneklik ve koordinasyon geliştirir</li>
-      <li>Kas gücünü ve duruşu artırır</li>
-      <li>Odaklanma ve disiplin kazandırır</li>
-      <li>Çocukların motor gelişimine büyük katkı sağlar</li>
+        <li><a href="#anasayfa">Anasayfa</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+        <li><a href="#hakkimizda">Hakkımızda</a></li>
+        <li><a href="#referanslar">Referanslar</a></li>
     </ul>
+</nav>
 
-    <h2>Kimler Cimnastik Yapabilir?</h2>
-    <ul>
-      <li>3 yaş ve üzeri çocuklar temel cimnastikle başlayabilir</li>
-      <li>Her yaşta birey kendi seviyesine uygun cimnastik yapabilir</li>
-      <li>Sporun temeli olduğu için tüm branşlara altyapı sağlar</li>
-    </ul>
+<section id="anasayfa">
+    <div class="card">
+        <h2>Cimnastik Nedir?</h2>
+        <p>Cimnastik, denge, esneklik, güç ve vücut kontrolü ile yapılan estetik hareketler bütünüdür. Artistik, ritmik, trambolin gibi branşları bulunur.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Gymnastics_balance_beam.jpg" alt="Cimnastik Nedir">
+    </div>
+</section>
 
-    <h2>Cimnastikte Beslenme ve Dinlenme</h2>
-    <ul>
-      <li>Dengeli ve doğal beslenme önerilir</li>
-      <li>Özellikle çocuklarda enerji ve protein alımı önemlidir</li>
-      <li>Esneklik ve kas onarımı için yeterli uyku şarttır</li>
-    </ul>
-  </section>
+<section id="blog">
+    <div class="card">
+        <h2>Cimnastiğin Tarihi</h2>
+        <p>Cimnastik, Antik Yunan'da ortaya çıkmış ve zamanla modern sporlardan biri haline gelmiştir.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Ancient_Olympics_pentathlon_disc.jpg" alt="Cimnastiğin Tarihi">
+    </div>
+    <div class="card">
+        <h2>Cimnastiğin Faydaları</h2>
+        <ul>
+            <li>Esneklik ve koordinasyonu geliştirir</li>
+            <li>Kas gücü ve duruşu artırır</li>
+            <li>Odaklanma ve disiplin kazandırır</li>
+            <li>Motor gelişimi destekler</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Children_exercising.jpg" alt="Cimnastiğin Faydaları">
+    </div>
+</section>
 
-  <section id="hakkimizda">
-    <h2>Hakkımızda</h2>
-    <p>Cimnastik sevgisini yaymak ve doğru bilgi sunmak için oluşturulmuş bir web sitesiyiz.</p>
-  </section>
+<section>
+    <div class="card">
+        <h2>Kimler Cimnastik Yapabilir?</h2>
+        <p>3 yaş ve üzeri çocuklar temel cimnastikle başlayabilir. Her yaşta kişi seviyesine uygun cimnastik yapabilir.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Gymnastics_training_for_kids.jpg" alt="Kimler Yapabilir">
+    </div>
+    <div class="card">
+        <h2>Cimnastikte Beslenme ve Dinlenme</h2>
+        <p>Dengeli beslenme ve yeterli uyku, özellikle çocuklarda gelişim ve performans için çok önemlidir.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Healthy_food_cartoon.svg" alt="Beslenme ve Uyku">
+    </div>
+</section>
 
-  <section id="iletisim">
-    <h2>İletişim</h2>
-    <p>Bize e-posta yoluyla ulaşabilirsiniz: <a href="mailto:cmnstk01@gmail.com">cmnstk01@gmail.com</a></p>
-  </section>
+<section id="hakkimizda">
+    <div class="card">
+        <h2>Hakkımızda</h2>
+        <p>Bu site, Işıl Belli tarafından Web Tasarım dersi için hazırlanmıştır. Çukurova Üniversitesi Antrenörlük Bölümü öğrencisidir.</p>
+    </div>
+</section>
 
-  <section id="referanslar">
-    <h2>Referanslarımız</h2>
-    <ul>
-      <li><a href="https://iscimnastik.com/referanslar" target="_blank">https://iscimnastik.com/referanslar</a></li>
-    </ul>
-  </section>
+<section id="iletisim">
+    <div class="card">
+        <h2>İletişim</h2>
+        <p>E-posta: <a href="mailto:cmnstk01@gmail.com">cmnstk01@gmail.com</a></p>
+        <p>Web: <a href="https://www.isil.com">www.isil.com</a></p>
+    </div>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Işıl Belli | Tüm Hakları Saklıdır.</p>
-  </footer>
+<section id="referanslar">
+    <div class="card">
+        <h2>Referanslarımız</h2>
+        <ul>
+            <li><a href="https://iscimnastik.com/referanslar">https://iscimnastik.com/referanslar</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Işıl Belli | Web Tasarım Projesi</p>
+</footer>
+
 </body>
 </html>
